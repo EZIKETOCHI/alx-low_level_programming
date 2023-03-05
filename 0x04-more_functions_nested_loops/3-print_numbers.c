@@ -1,14 +1,18 @@
 #include "main.h"
+
 /**
- * print_numbers - prints numbers from (0) to (9)
- * @i: parameter to be checked
- * Return: Always (0)
+ * print_numbers - print 0-9
+ * return: void
  */
+
 void print_numbers(void)
 {
-int i;
-for (i >= 0 ; i <= 9 ; i++)
-putchar("%d ", i);
-putchar('\n');
-return (0);
+char c;
+
+for (c = '0'; c <= '9'; c++)
+{
+putchar(c);
 }
+putchar('\n');
+}
+
